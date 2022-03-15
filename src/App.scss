@@ -45,4 +45,22 @@ body {
     padding: 0.3rem;
     font-size: 0.65rem;
   }
+
+  &__para {
+    max-width: 245px;
+    width: 100%;
+    margin: 0 auto;
+
+    .des {
+      font-size: 0.65rem;
+      font-weight: 400;
+      color: #dcdcdc;
+      line-height: 1.5;
+      padding: 0.2rem;
+    }
+  }
+}
+
+.mt-3 {
+  margin-top: 1.562em;
 }
