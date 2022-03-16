@@ -11,6 +11,13 @@ const Info = () => {
         <p className="card__position">FrontEnd Developer</p>
         <p className="card__site">laurasmith.website</p>
       </div>
+
+    <div className="card__buttons">
+        <button className="email"><i class="fa-solid fa-envelope"></i>Email</button>
+        <button className="linkedin"><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
+    </div>
+
+
     </div>
   );
 };
